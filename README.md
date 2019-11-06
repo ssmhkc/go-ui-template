@@ -37,7 +37,7 @@ Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 Builds the app for production to the `dist` folder.<br>
 
 ### `npm run build-storybook`
-Builds the app for production to the `storybook-static` folder.<br>
+Builds the app for production to the `.out` folder.<br>
 
 ### `npm run http-server`
 Runs  storybook in the production mode.<br>
