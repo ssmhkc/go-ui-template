@@ -46,6 +46,10 @@ Builds the app for production to the `dist` folder.<br>
 ### `npm run build-storybook`
 Builds the app for production to the `storybook-static` folder.<br>
 
+### `npm run http-server`
+Runs  storybook in the production mode.<br>
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
 ## Learn More
 
 ### React
