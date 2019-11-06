@@ -11,10 +11,12 @@
 Game Orbit is a platform to deploy a game portal in a short time even a publisher has no experience on coding or games. Game Orbit includes some components which are necessary to build a game portal. The number of components will increase time by time. The most important thing is to give a creative and elegant UX experience to players. It requires many developers and designers being involved in Game Orbit. So we are looking for developers and designers we can work together.
 
 ## Coding Challange
+Please,
 - Fork this template project
-- Create two components
+- Create at least one component
   - Component 1: We want to list games up to 5. It may fit all page completely.
-  - Component 2: We want to list games up to 100. 
+  - Component 2: We want to list games up to 100.
+  - Component 3: We want to display a game in game card.
 
 You are completely free in styling, designing and coding.
 
