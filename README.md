@@ -12,11 +12,12 @@ Game Orbit is a platform to deploy a game portal in a short time even a publishe
 
 ## Coding Challange
 Please,
-- Fork this template project
+- Fork or clone the template project
 - Create at least one component
-  - Component 1: We want to list games up to 5. It may fit all page completely.
-  - Component 2: We want to list games up to 100.
-  - Component 3: We want to display a game in game card.
+  - Component 1: Lists games up to 5. It may fit all page completely.
+  - Component 2: Lists games up to 100.
+  - Component 3: Displays metadata of a game in a game card.
+  - Component 4: Displays a game before playing it
 
 You are completely free in styling, designing and coding.
 
