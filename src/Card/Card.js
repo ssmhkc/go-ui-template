@@ -51,7 +51,7 @@ const Card = props => {
         <div className={item} >
             <img className={image} src={url} />
             <div className={header}>
-                <h4>{title}</h4>
+                <h4>{title}sdds</h4>
             </div>
         </div>
     )
