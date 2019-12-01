@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { List } from '../CardList/index';
-import { useGameCollectionRSS } from '../Hook/index';
+import { List } from '../../CardList/index';
+import { useGameCollectionRSS } from '../../Hook/index';
 
 const useStyles = makeStyles(theme => ({
     root: {
