@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from "@material-ui/core";
 import { useCard } from '../Hook/index';
-
+import TextField from '@material-ui/core/TextField';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import './style.css'
 const useStyles = makeStyles(theme => ({
     item: {
         color: "white",
@@ -9,13 +12,21 @@ const useStyles = makeStyles(theme => ({
         background: "black",
         display: "flex",
         flexDirection: "column",
-        maxWidth: "240px",
+        maxWidth: "100%",
+        margin: 15,
+        overflow: 'hidden',
+        maxHeight: "150px",
         position: "relative",
-        border: "5px solid black",
+        "&:hover": {
+            cursor: 'pointer'
+        },
         "& > img": {
             width: "100%",
             height: "100%",
+
+            
         },
+        
     },
     header: {
         background: "radial-gradient(transparent 0%, black 100%)",
@@ -29,7 +40,20 @@ const useStyles = makeStyles(theme => ({
         alignItems: "center",
         textAlign: "center",
     },
-    
+    buttons: {
+        width: '165px',
+        height: '45px',
+        border: '2px solid white',
+        justifyContent: 'center',
+        display: 'flex',
+        alignItems: 'center',
+        marginRight: 15,
+        borderRadius: 2,
+    },
+    link: {
+        textDecoration: 'none',
+        color: '#fff'
+    }
 }));
 
 const Card = props => {
@@ -52,7 +76,7 @@ const Card = props => {
         <div className={item} >
             <img className={image} src={url} />
             <div className={header}>
-                <h4>{title}</h4>
+                <div className={classes.buttons+ " neonButton"}><span><a className={classes.link} href={url}>{title}</a></span></div>
             </div>
         </div>
     )
