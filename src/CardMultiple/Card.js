@@ -64,6 +64,7 @@ const Card = props => {
     const card = useCard(data);
 
     const [url, setUrl] = useState(null);
+
     const [title, setTitle] = useState(null);
 
     useEffect(() => {
@@ -76,7 +77,7 @@ const Card = props => {
         <div className={item} >
             <img className={image} src={url} />
             <div className={header}>
-                <div className={classes.buttons+ " neonButton"}><span><a className={classes.link} href={url}>{title}</a></span></div>
+                <div className={classes.buttons+ " neonButton"}><span><a className={classes.link} href={data.url}>{title}</a></span></div>
             </div>
         </div>
     )

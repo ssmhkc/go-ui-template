@@ -1,8 +1,9 @@
 import React from "react";
 
 const context = {
-    url: null
-    , header: null
+    url: null,
+    playLink: null,
+    header: null
 };
 
 const useCard = item => {
@@ -10,8 +11,9 @@ const useCard = item => {
 
     const updateData = () => {
         const dataContext = {
-            url: item.assetList[0].name
-            , header: item.title
+            url: item.assetList[0].name,
+            playLink: item.url,
+            header: item.title
         };
         setGameContext(dataContext);
     }
